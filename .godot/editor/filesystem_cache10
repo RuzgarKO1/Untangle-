@@ -1,0 +1,14 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792187627
+icon.svg::CompressedTexture2D::5027458841095875033::1792184167::1792187584::1::::<><><>0<>0<>70478119b2cb7670e6ddaa5152574cfa<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1792187627
+Witch-Idle.json::JSON::-1::1792186776::0::1::::<><><>0<>0<><>::
+Witch-Idle.png::CompressedTexture2D::3543747059490001308::1792186776::1792187629::1::::<><><>0<>0<>06e4d2807f66e27c80228d8ce788aa81<>res://.godot/imported/Witch-Idle.png-b05d7975e54db97c7b9b9043db969bc0.ctex::
+Witch-Run-v3.json::JSON::-1::1792186776::0::1::::<><><>0<>0<><>::
+Witch-Run-v3.png::CompressedTexture2D::7611097929646797076::1792186776::1792187629::1::::<><><>0<>0<>71a4b4a3f1003ce43f5e1c85576f2e33<>res://.godot/imported/Witch-Run-v3.png-2887c83b471edbb0570108f978ef5dfc.ctex::
+Witch-RunStart.json::JSON::-1::1792186776::0::1::::<><><>0<>0<><>::
+Witch-RunStart.png::CompressedTexture2D::8391917096694760582::1792186776::1792187629::1::::<><><>0<>0<>ae3974d0e28ff1ec61f020fb59ff2795<>res://.godot/imported/Witch-RunStart.png-4014c589d581e621ed3379d6b216b890.ctex::
+::res://scenes/::1792187428
+character_body_2d.tscn::PackedScene::4727905909424723188::1792185973::0::1::::<><><>0<>0<><>::
+game.tscn::PackedScene::9005329220850077704::1792185599::0::1::::<><><>0<>0<><>::
+::res://scripts/::1792187428
