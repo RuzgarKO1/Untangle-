@@ -1,0 +1,107 @@
+{
+  "frames": [
+    {
+      "filename": "run_start_0",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 28,
+        "y": 38
+      }
+    },
+    {
+      "filename": "run_start_1",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 25,
+        "y": 41
+      }
+    },
+    {
+      "filename": "run_start_2",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 21,
+        "y": 41
+      }
+    },
+    {
+      "filename": "run_start_3",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 18,
+        "y": 39
+      }
+    },
+    {
+      "filename": "run_start_4",
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 16,
+        "y": 36
+      }
+    },
+    {
+      "filename": "run_start_5",
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 60,
+      "rope_anchor": {
+        "x": 16,
+        "y": 35
+      }
+    }
+  ],
+  "meta": {
+    "image": "Witch-RunStart.png",
+    "size": {
+      "w": 384,
+      "h": 64
+    },
+    "frameTags": [
+      {
+        "name": "run_start",
+        "from": 0,
+        "to": 5,
+        "direction": "forward",
+        "repeat": 1
+      }
+    ],
+    "nextAnimation": "run",
+    "nextAnimationStartFrame": 1,
+    "notes": "Play once. Last frame matches Witch-Run-v3 frame 0 exactly; continue from run frame 1 to avoid repeating the landing pose."
+  }
+}

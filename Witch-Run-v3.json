@@ -1,0 +1,140 @@
+{
+  "frames": [
+    {
+      "filename": "run_0",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 35
+      }
+    },
+    {
+      "filename": "run_1",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 36
+      }
+    },
+    {
+      "filename": "run_2",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 36
+      }
+    },
+    {
+      "filename": "run_3",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 35
+      }
+    },
+    {
+      "filename": "run_4",
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 35
+      }
+    },
+    {
+      "filename": "run_5",
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 36
+      }
+    },
+    {
+      "filename": "run_6",
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 34
+      }
+    },
+    {
+      "filename": "run_7",
+      "frame": {
+        "x": 448,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "duration": 80,
+      "rope_anchor": {
+        "x": 16,
+        "y": 33
+      }
+    }
+  ],
+  "meta": {
+    "image": "Witch-Run-v3.png",
+    "size": {
+      "w": 512,
+      "h": 64
+    },
+    "frameTags": [
+      {
+        "name": "run",
+        "from": 0,
+        "to": 7,
+        "direction": "forward"
+      }
+    ],
+    "layers": [
+      "Back leg",
+      "Front leg",
+      "Rear arm",
+      "Body - hat - hair",
+      "Arm and cuff",
+      "Rope (empty)"
+    ],
+    "notes": "Rope layer is intentionally empty; rope_anchor uses top-left local sprite coordinates."
+  }
+}
