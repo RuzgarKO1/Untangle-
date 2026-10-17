@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://c7l5ui3axjnb3" path="res://Arianne-Ledge-Package/Arianne-Ledge/Arianne-ledge_catch.png" id="6_smehm"]
 [ext_resource type="Texture2D" uid="uid://bvr3e7e0hq118" path="res://Arianne-Ledge-Package/Arianne-Ledge/Arianne-ledge_climb.png" id="7_ur7pv"]
 [ext_resource type="Texture2D" uid="uid://b0psgoouqpvip" path="res://Arianne-Ledge-Package/Arianne-Ledge/Arianne-ledge_hang.png" id="8_y4r1p"]
+[ext_resource type="Script" uid="uid://da3xe6wfxlxoo" path="res://scenes/ledge.gd" id="9_ur7pv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
 atlas = ExtResource("2_qhqgy")
@@ -392,3 +393,6 @@ shape = SubResource("RectangleShape2D_qlg0r")
 visible = false
 sprite_frames = SubResource("SpriteFrames_g4v7s")
 animation = &"ledge_catch"
+
+[node name="LedgeController" type="Node" parent="." unique_id=1526851383]
+script = ExtResource("9_ur7pv")

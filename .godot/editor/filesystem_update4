@@ -1,5 +1,4 @@
 res://scenes/player.tscn
 res://scripts/player.gd
+res://scenes/ledge.gd
 res://scenes/game.tscn
-res://scenes/RockFloor1.tscn
-res://scripts/camera_2d.gd
