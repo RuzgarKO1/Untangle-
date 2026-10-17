@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5bb1nlfpg5tb"
-path="res://.godot/imported/Arianne-ledge_hang.png-dc8a329214ccd1fbeccb6076f1032b58.ctex"
+path="res://.godot/imported/Arianne-ledge_hang.png-e1973c21b837b412b6c2b6cf3b019887.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_hang.png"
-dest_files=["res://.godot/imported/Arianne-ledge_hang.png-dc8a329214ccd1fbeccb6076f1032b58.ctex"]
+source_file="res://Arianne-Ledge-Package/Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_hang.png"
+dest_files=["res://.godot/imported/Arianne-ledge_hang.png-e1973c21b837b412b6c2b6cf3b019887.ctex"]
 
 [params]
 

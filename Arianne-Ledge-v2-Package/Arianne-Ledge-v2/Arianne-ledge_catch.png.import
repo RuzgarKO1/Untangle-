@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co7gxw4yv5nia"
-path="res://.godot/imported/Arianne-ledge_catch.png-c4b86e62b23b73124c871516519b2275.ctex"
+path="res://.godot/imported/Arianne-ledge_catch.png-1a23c0b9620263ec855ce4b60f4ecd0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_catch.png"
-dest_files=["res://.godot/imported/Arianne-ledge_catch.png-c4b86e62b23b73124c871516519b2275.ctex"]
+source_file="res://Arianne-Ledge-Package/Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_catch.png"
+dest_files=["res://.godot/imported/Arianne-ledge_catch.png-1a23c0b9620263ec855ce4b60f4ecd0a.ctex"]
 
 [params]
 
