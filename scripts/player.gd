@@ -2,10 +2,12 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
+const COYOTE_TIME = 0.12
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 var run_starting := false
+var coyote_timer := 0.0
 
 
 func _ready() -> void:
@@ -22,13 +24,18 @@ func _ready() -> void:
 
 
 func _physics_process(delta: float) -> void:
-	# Yerçekimi.
-	if not is_on_floor():
+	# Yerdeyken zıplama süresini hazır tut.
+	# Kenardan ayrılınca geri saymaya başla.
+	if is_on_floor():
+		coyote_timer = COYOTE_TIME
+	else:
+		coyote_timer = maxf(coyote_timer - delta, 0.0)
 		velocity += get_gravity() * delta
 
-	# Zıplama.
-	if Input.is_action_just_pressed("jump") and is_on_floor():
+	# Yerdeyken veya coyote time sürerken zıpla.
+	if Input.is_action_just_pressed("jump") and coyote_timer > 0.0:
 		velocity.y = JUMP_VELOCITY
+		coyote_timer = 0.0
 
 	var direction := Input.get_axis("move_left", "move_right")
 
@@ -46,7 +53,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
-	# Hareketten sonra güncel zemin durumuna göre animasyonu seç.
+	# Güncel zemin durumuna göre animasyonu seç.
 	update_animation(direction)
 
 
