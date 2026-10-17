@@ -1,0 +1,45 @@
+{
+  "animation": "run_start",
+  "frames": 6,
+  "fps": 16.666666666666668,
+  "frame_duration_ms": 60,
+  "duration_ms": 360,
+  "loop": false,
+  "cell": [
+    64,
+    64
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "rope_anchor": [
+    {
+      "x": 33,
+      "y": 40
+    },
+    {
+      "x": 31,
+      "y": 41
+    },
+    {
+      "x": 27,
+      "y": 42
+    },
+    {
+      "x": 23,
+      "y": 41
+    },
+    {
+      "x": 20,
+      "y": 38
+    },
+    {
+      "x": 19,
+      "y": 36
+    }
+  ],
+  "next_animation": "run",
+  "next_frame_zero_based": 1,
+  "note": "Last frame matches existing Arianne-run frame 0 exactly. Continue at run frame 1."
+}

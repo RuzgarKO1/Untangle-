@@ -1,0 +1,145 @@
+{
+  "idle": {
+    "fps": 4.0,
+    "frame_ms": 250,
+    "count": 4,
+    "cell": [
+      64,
+      64
+    ],
+    "sheet_grid": [
+      4,
+      1
+    ],
+    "loop": true,
+    "rope_anchor": [
+      {
+        "x": 33,
+        "y": 40
+      },
+      {
+        "x": 33,
+        "y": 39
+      },
+      {
+        "x": 33,
+        "y": 39
+      },
+      {
+        "x": 33,
+        "y": 40
+      }
+    ],
+    "anchor_origin": "top-left of each 64x64 frame; center of brown bracelet, not hand",
+    "godot_centered_origin": [
+      32,
+      32
+    ]
+  },
+  "walk": {
+    "fps": 10.0,
+    "frame_ms": 100,
+    "count": 8,
+    "cell": [
+      64,
+      64
+    ],
+    "sheet_grid": [
+      8,
+      1
+    ],
+    "loop": true,
+    "rope_anchor": [
+      {
+        "x": 27,
+        "y": 40
+      },
+      {
+        "x": 28,
+        "y": 41
+      },
+      {
+        "x": 31,
+        "y": 40
+      },
+      {
+        "x": 34,
+        "y": 39
+      },
+      {
+        "x": 36,
+        "y": 40
+      },
+      {
+        "x": 34,
+        "y": 41
+      },
+      {
+        "x": 31,
+        "y": 40
+      },
+      {
+        "x": 28,
+        "y": 39
+      }
+    ],
+    "anchor_origin": "top-left of each 64x64 frame; center of brown bracelet, not hand",
+    "godot_centered_origin": [
+      32,
+      32
+    ]
+  },
+  "run": {
+    "fps": 12.5,
+    "frame_ms": 80,
+    "count": 8,
+    "cell": [
+      64,
+      64
+    ],
+    "sheet_grid": [
+      8,
+      1
+    ],
+    "loop": true,
+    "rope_anchor": [
+      {
+        "x": 19,
+        "y": 36
+      },
+      {
+        "x": 19,
+        "y": 38
+      },
+      {
+        "x": 19,
+        "y": 37
+      },
+      {
+        "x": 19,
+        "y": 36
+      },
+      {
+        "x": 19,
+        "y": 36
+      },
+      {
+        "x": 19,
+        "y": 37
+      },
+      {
+        "x": 19,
+        "y": 36
+      },
+      {
+        "x": 19,
+        "y": 35
+      }
+    ],
+    "anchor_origin": "top-left of each 64x64 frame; center of brown bracelet, not hand",
+    "godot_centered_origin": [
+      32,
+      32
+    ]
+  }
+}
