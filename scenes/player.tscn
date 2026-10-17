@@ -241,16 +241,16 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qt6ar"]
 radius = 9.0
-height = 56.0
+height = 52.0
 
 [node name="player" type="CharacterBody2D" unique_id=1773335266]
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1370687423]
 sprite_frames = SubResource("SpriteFrames_oye3d")
-animation = &"run_start"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.516177
+frame_progress = 0.33006248
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1908650525]
 position = Vector2(-3, 4)

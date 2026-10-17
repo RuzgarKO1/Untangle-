@@ -1,3 +1,4 @@
 res://scenes/player.tscn
 res://scripts/player.gd
 res://scenes/game.tscn
+res://scenes/RockFloor1.tscn
