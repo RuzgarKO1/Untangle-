@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://0s6sq11ny3b1" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Script" uid="uid://cnosx5brjgslr" path="res://scripts/camera_2d.gd" id="2_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://cdvlros6bhm86" path="res://icon.svg" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://bpw3kjorq3fyh" path="res://scenes/RockFloor1.tscn" id="4_lbhrr"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_oye3d"]
 distance = -28.0
@@ -31,3 +32,6 @@ show_behind_parent = true
 position = Vector2(79.50003, 83.000046)
 scale = Vector2(12.2734375, 9.656251)
 texture = ExtResource("3_lnu2h")
+
+[node name="StaticBody2D2" parent="." unique_id=500743542 instance=ExtResource("4_lbhrr")]
+position = Vector2(250, 95)
