@@ -14,7 +14,7 @@ position = Vector2(172, 97)
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1282357518]
 position = Vector2(0, 1)
 zoom = Vector2(2, 2)
-position_smoothing_enabled = true
+position_smoothing_speed = 15.0
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=364964152]
 
