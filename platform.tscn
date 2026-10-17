@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://ck8n52d7njgbu"]
+
+[ext_resource type="Texture2D" uid="uid://b05d3xaitricg" path="res://WorldPlace/SolidFloor.png" id="1_mi635"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(37, 6.25)
+
+[node name="platform" type="AnimatableBody2D" unique_id=1656780410]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=395626778]
+region_enabled = true
+
+[node name="SolidFloor" type="Sprite2D" parent="." unique_id=193930092]
+position = Vector2(56, -16)
+texture = ExtResource("1_mi635")
+region_enabled = true
+region_rect = Rect2(15.919916, 44.42487, 36.163246, 7.8871117)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SolidFloor" unique_id=2021005669]
+shape = SubResource("RectangleShape2D_g4v7s")
+one_way_collision = true

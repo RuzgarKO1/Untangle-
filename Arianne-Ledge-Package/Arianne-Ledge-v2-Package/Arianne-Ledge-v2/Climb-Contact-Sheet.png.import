@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xmpukclojar1"
-path="res://.godot/imported/Climb-Contact-Sheet.png-ffa476b31d34597883274e5c7beaa9bc.ctex"
+path="res://.godot/imported/Climb-Contact-Sheet.png-03b305c9915f5cd4059a78d59b0edbd1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Climb-Contact-Sheet.png"
-dest_files=["res://.godot/imported/Climb-Contact-Sheet.png-ffa476b31d34597883274e5c7beaa9bc.ctex"]
+source_file="res://Arianne-Ledge-Package/Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Climb-Contact-Sheet.png"
+dest_files=["res://.godot/imported/Climb-Contact-Sheet.png-03b305c9915f5cd4059a78d59b0edbd1.ctex"]
 
 [params]
 
