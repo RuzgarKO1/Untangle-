@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://d1kipr2ebwngi"]
 
 [ext_resource type="PackedScene" uid="uid://0s6sq11ny3b1" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://cnosx5brjgslr" path="res://scripts/camera_2d.gd" id="2_yqjtg"]
+[ext_resource type="Texture2D" uid="uid://cdvlros6bhm86" path="res://icon.svg" id="3_lnu2h"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_oye3d"]
 distance = -28.0
@@ -15,9 +17,17 @@ position = Vector2(160, 133)
 position = Vector2(0, 1)
 zoom = Vector2(2, 2)
 position_smoothing_speed = 15.0
+script = ExtResource("2_yqjtg")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=364964152]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=977596320]
 position = Vector2(168, 136)
 shape = SubResource("WorldBoundaryShape2D_oye3d")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1462871215]
+modulate = Color(1, 1, 1, 0.10980392)
+show_behind_parent = true
+position = Vector2(79.50003, 83.000046)
+scale = Vector2(12.2734375, 9.656251)
+texture = ExtResource("3_lnu2h")
