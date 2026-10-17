@@ -1,0 +1,98 @@
+{
+  "ledge_catch": {
+    "frames": 6,
+    "fps": 16.666666666666668,
+    "frame_ms": 60,
+    "loop": false,
+    "cell": [
+      128,
+      128
+    ],
+    "sheet_grid": [
+      6,
+      1
+    ]
+  },
+  "ledge_hang": {
+    "frames": 4,
+    "fps": 5.0,
+    "frame_ms": 200,
+    "loop": true,
+    "cell": [
+      128,
+      128
+    ],
+    "sheet_grid": [
+      4,
+      1
+    ]
+  },
+  "ledge_climb": {
+    "frames": 8,
+    "fps": 12.5,
+    "frame_ms": 80,
+    "loop": false,
+    "cell": [
+      128,
+      128
+    ],
+    "sheet_grid": [
+      8,
+      1
+    ]
+  },
+  "alignment": {
+    "ledge_anchor": [
+      76,
+      64
+    ],
+    "centered_sprite_offset": [
+      -12,
+      0
+    ],
+    "previous_air_sprite_center_relative_to_ledge": [
+      -16,
+      15
+    ],
+    "final_idle_sprite_center_relative_to_ledge": [
+      14,
+      -29
+    ],
+    "catch_entry_spin_frame": 0,
+    "climb_visual_offsets": [
+      [
+        28,
+        47
+      ],
+      [
+        29,
+        43
+      ],
+      [
+        33,
+        34
+      ],
+      [
+        39,
+        23
+      ],
+      [
+        46,
+        13
+      ],
+      [
+        53,
+        7
+      ],
+      [
+        57,
+        3
+      ],
+      [
+        58,
+        3
+      ]
+    ],
+    "note": "World ledge corner is fixed. These are visual placement coordinates, not a collision-safe character movement path."
+  }
+}
