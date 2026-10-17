@@ -1,11 +1,15 @@
 extends Camera2D
 
-const DEAD_ZONE = 500
-# Called when the node enters the scene tree for the first time.
-#func _input(event: InputEvent) -> void:
-	#if event is InputEventMouseMotion:
-		#var _target = event.position - get_viewport().size * 0.5
-		#if _target.length() < DEAD_ZONE:
-			#self.position = Vector2(0,0)
-		#else:
-			#self.position = _target.normalized() * (_target.length() - DEAD_ZONE) * 0.5
+const DEAD_ZONE = 200.0
+const CAMERA_STRENGTH = 0.5
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventMouseMotion:
+		var viewport_center = get_viewport_rect().size * 0.5
+		var target = event.position - viewport_center
+
+		if target.length() < DEAD_ZONE:
+			position = Vector2.ZERO
+		else:
+			position = target.normalized() * \
+				(target.length() - DEAD_ZONE) * CAMERA_STRENGTH
