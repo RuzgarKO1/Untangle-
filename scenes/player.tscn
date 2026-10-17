@@ -417,9 +417,9 @@ position = Vector2(-2, 8.5)
 shape = SubResource("RectangleShape2D_qlg0r")
 
 [node name="LedgeSprite" type="AnimatedSprite2D" parent="." unique_id=2074454301]
-visible = false
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"ledge_climb"
+animation = &"ledge_catch"
+frame_progress = 0.6052633
 
 [node name="LedgeController" type="Node" parent="." unique_id=1526851383]
 script = ExtResource("9_ur7pv")

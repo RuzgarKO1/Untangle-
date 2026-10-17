@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://64gimp2wekle"]
+
+[ext_resource type="Script" uid="uid://crjg4taskxsq5" path="res://scripts/rope_manager.gd" id="1_rvuxh"]
+
+[node name="RopeManager" type="Node2D" unique_id=1521415772]
+script = ExtResource("1_rvuxh")

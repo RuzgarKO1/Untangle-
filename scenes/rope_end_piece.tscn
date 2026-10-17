@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://coafsor2xohqm"]
+
+[ext_resource type="Texture2D" uid="uid://cdvlros6bhm86" path="res://icon.svg" id="1_tjl0s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_oye3d"]
+radius = 2.0
+
+[node name="RopeEndPiece" type="RigidBody2D" unique_id=1729356085]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1343800747]
+shape = SubResource("CircleShape2D_oye3d")
+
+[node name="PinJoint2D" type="PinJoint2D" parent="CollisionShape2D" unique_id=531955784]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1563652308]
+position = Vector2(5.9604645e-08, 1.4901161e-07)
+scale = Vector2(0.031249998, 0.031249998)
+texture = ExtResource("1_tjl0s")

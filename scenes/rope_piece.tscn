@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c1y8a0gclteay"]
+
+[ext_resource type="Script" uid="uid://b6lxdaqjepu3h" path="res://scripts/rope_piece.gd" id="1_xa2hg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oye3d"]
+radius = 1.0
+height = 4.0
+
+[node name="RopePiece" type="RigidBody2D" unique_id=833609062]
+script = ExtResource("1_xa2hg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=113319604]
+position = Vector2(0, 2)
+shape = SubResource("CapsuleShape2D_oye3d")
+
+[node name="PinJoint2D" type="PinJoint2D" parent="CollisionShape2D" unique_id=641020512]
+position = Vector2(0, 2)
