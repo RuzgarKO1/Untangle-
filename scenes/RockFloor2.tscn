@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bgcumlmn0gc2s"]
+
+[ext_resource type="PackedScene" uid="uid://bpw3kjorq3fyh" path="res://scenes/RockFloor1.tscn" id="1_flffx"]
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1930185287]
+
+[node name="StaticBody2D" parent="." unique_id=500743542 instance=ExtResource("1_flffx")]
+
+[node name="StaticBody2D2" parent="." unique_id=1762697124 instance=ExtResource("1_flffx")]
+position = Vector2(68, 0)

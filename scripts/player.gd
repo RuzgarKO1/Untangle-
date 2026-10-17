@@ -5,6 +5,9 @@ const JUMP_VELOCITY = -400.0
 const COYOTE_TIME = 0.16
 const REGRAB_DELAY = 0.25
 
+# A tiny vertical-speed tolerance counts as the jump apex, not normal ascent.
+const APEX_GRAB_TOLERANCE = 20.0
+
 # These coordinates match the supplied 128x128 ledge animations.
 const HANG_CENTER = Vector2(-16.0, 15.0)
 const STAND_CENTER = Vector2(14.0, -29.2)
@@ -13,7 +16,6 @@ enum Mode { NORMAL, CATCH, HANG, CLIMB }
 
 @export_flags_2d_physics var ledge_mask: int = 1
 @export var ledge_reach: float = 36.0
-@export var grab_while_rising := true
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var ledge_sprite: AnimatedSprite2D = $LedgeSprite
@@ -76,7 +78,7 @@ func _physics_process(delta: float) -> void:
 
 	var can_grab := (
 		not is_on_floor()
-		and (velocity.y >= 0.0 or grab_while_rising)
+		and velocity.y >= -APEX_GRAB_TOLERANCE
 		and not Input.is_action_pressed("move_down")
 		and not is_zero_approx(direction)
 		and regrab_timer <= 0.0
@@ -115,7 +117,7 @@ func _path_clear(from: Vector2, to: Vector2) -> bool:
 
 func _try_grab_ledge() -> bool:
 	# Scan the hand-height band instead of looking below thin platforms.
-	# Probe both while rising and falling; actual body clearance still applies.
+	# Called only near the jump apex or while falling; clearance still applies.
 	var wall: Dictionary = {}
 	var probe_heights: Array[float] = [0.0]
 	for step in range(1, 16):
