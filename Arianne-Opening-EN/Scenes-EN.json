@@ -1,0 +1,85 @@
+{
+  "duration": 37,
+  "introBlack": 0.8,
+  "outroBlack": 1.2,
+  "palette": {
+    "background": "#000000",
+    "text": "#efdec1",
+    "accent": "#61bdff"
+  },
+  "scenes": [
+    {
+      "id": "01-mountain",
+      "title": "The journey",
+      "duration": 7,
+      "lines": [
+        "Arianne set out for the world's highest mountain",
+        "to fulfill her mother's final wish."
+      ],
+      "image": "assets/01-mountain.png",
+      "start": 0.8,
+      "end": 7.8
+    },
+    {
+      "id": "02-bracelet",
+      "title": "A keepsake",
+      "duration": 5,
+      "lines": [
+        "She carried a bracelet",
+        "her mother had left behind."
+      ],
+      "image": "assets/02-bracelet.png",
+      "start": 7.8,
+      "end": 12.8
+    },
+    {
+      "id": "03-tremor",
+      "title": "The fracture",
+      "duration": 4,
+      "lines": [
+        "As she neared the summit...",
+        "the mountain trembled."
+      ],
+      "image": "assets/03-tremor.png",
+      "start": 12.8,
+      "end": 16.8
+    },
+    {
+      "id": "04-fall",
+      "title": "The blue rope",
+      "duration": 6,
+      "lines": [
+        "A blue rope unfurled from the bracelet.",
+        "But it could not stop her fall."
+      ],
+      "image": "assets/04-fall.png",
+      "start": 16.8,
+      "end": 22.8
+    },
+    {
+      "id": "05-cavern",
+      "title": "The knots",
+      "duration": 6,
+      "lines": [
+        "She awoke in a forgotten cavern.",
+        "The rope was knotted around the rocks."
+      ],
+      "image": "assets/05-cavern.png",
+      "start": 22.8,
+      "end": 28.8
+    },
+    {
+      "id": "06-ascent",
+      "title": "The way up",
+      "duration": 7,
+      "lines": [
+        "Above her, a wish remained unfulfilled.",
+        "Before her, knots waited to be untied."
+      ],
+      "image": "assets/06-ascent.png",
+      "start": 28.8,
+      "end": 35.8
+    }
+  ],
+  "language": "en"
+}
