@@ -1,0 +1,48 @@
+{
+  "ledge_catch": {
+    "frames": 6,
+    "fps_preview": 16.666666666666668,
+    "frame_ms": 60,
+    "loop": false,
+    "cell": [
+      128,
+      128
+    ],
+    "grid": [
+      6,
+      1
+    ]
+  },
+  "ledge_hang": {
+    "frames": 4,
+    "fps_preview": 5.0,
+    "frame_ms": 200,
+    "loop": true,
+    "cell": [
+      128,
+      128
+    ],
+    "grid": [
+      4,
+      1
+    ]
+  },
+  "ledge_climb": {
+    "frames": 12,
+    "fps_preview": 14.285714285714286,
+    "frame_ms": 70,
+    "loop": false,
+    "cell": [
+      128,
+      128
+    ],
+    "grid": [
+      12,
+      1
+    ]
+  },
+  "ledge_anchor": [
+    76,
+    64
+  ]
+}
