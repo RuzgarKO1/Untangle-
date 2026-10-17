@@ -11,9 +11,10 @@ position = Vector2(-4, 0)
 [node name="CharacterBody2D" parent="." unique_id=1773335266 instance=ExtResource("1_uwrxv")]
 position = Vector2(172, 97)
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1282357518]
-position = Vector2(172, 98)
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1282357518]
+position = Vector2(0, 1)
 zoom = Vector2(2, 2)
+position_smoothing_enabled = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=364964152]
 
