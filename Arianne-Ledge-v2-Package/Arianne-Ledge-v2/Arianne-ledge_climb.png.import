@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cro651e06xfvu"
-path="res://.godot/imported/Arianne-ledge_climb.png-6594370c6a897cc8a6d70c598cd06d09.ctex"
+path="res://.godot/imported/Arianne-ledge_climb.png-12d924e96be7a57ddb4979a6e6e37557.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Arianne-Ledge-Package/Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_climb.png"
-dest_files=["res://.godot/imported/Arianne-ledge_climb.png-6594370c6a897cc8a6d70c598cd06d09.ctex"]
+source_file="res://Arianne-Ledge-v2-Package/Arianne-Ledge-v2/Arianne-ledge_climb.png"
+dest_files=["res://.godot/imported/Arianne-ledge_climb.png-12d924e96be7a57ddb4979a6e6e37557.ctex"]
 
 [params]
 
